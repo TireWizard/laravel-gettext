@@ -7,12 +7,13 @@
         "localization",
         "poedit",
         "laravel-gettext",
-        "laravel", "translation"
+        "laravel",
+        "translation"
     ],
     "license": "MIT",
     "authors": [
         {
-            "name": "Nicolás Daniel Palumbo",
+            "name": "Nicol\u00e1s Daniel Palumbo",
             "email": "n@xinax.net"
         },
         {
@@ -29,13 +30,13 @@
     },
     "require": {
         "php": ">=8.0",
-        "laravel/framework": "^9.0 || ^10.0 || ^11.0 || ^12.0",
+        "laravel/framework": "^9.0 || ^10.0 || ^11.0 || ^12.0 || ^13.0",
         "laravel/helpers": "^1.1"
     },
     "require-dev": {
         "mockery/mockery": "dev-master",
         "phpunit/phpunit": "~7.0 || ^8.5 || ^9",
-        "squizlabs/php_codesniffer" : "1.5.*",
+        "squizlabs/php_codesniffer": "1.5.*",
         "laravel/laravel": "^9.0",
         "php-coveralls/php-coveralls": "^2.1"
     },
@@ -50,9 +51,9 @@
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
-          "providers": [
-            "Nekhbet\\LaravelGettext\\LaravelGettextServiceProvider"
-          ]
-       }
+            "providers": [
+                "Nekhbet\\LaravelGettext\\LaravelGettextServiceProvider"
+            ]
+        }
     }
 }
